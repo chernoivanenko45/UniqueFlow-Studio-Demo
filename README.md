@@ -22,10 +22,12 @@ This repository contains the **limited public Demo Edition**, created to collect
 ## Try it
 
 1. Open [Releases](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest).
-2. Download `UniqueFlowStudio_Demo_0.2.0_Portable.zip`.
+2. Download `UniqueFlowStudio_Demo_0.2.1_Portable.zip`.
 3. Extract the complete archive to a normal folder.
 4. Run `UniqueFlowStudioDemo.exe`.
 5. Add up to three videos, optionally choose a music track, and create a short demo edit.
+
+> Do not run the EXE directly inside WinRAR, 7-Zip or another archive viewer. Extract the complete folder first; the player and bundled multimedia libraries must remain together.
 
 > This early preview is unsigned. Windows SmartScreen may display an “Unknown publisher” warning. Verify the SHA-256 value shown in the Release before running it.
 

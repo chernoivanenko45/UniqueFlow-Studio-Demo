@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.2.1 — Player hotfix
+
+- Replaced the unstable native video surface with a persistent frame canvas
+- Fixed the black embedded result preview after playback warm-up
+- Fixed the malformed detached window opened by the full-screen button
+- Kept one synchronized playback position and one audio stream in both views
+- Added packaged EXE smoke checks for visible frames, full-screen coverage and duplicate audio
+- Added an explicit reminder to fully extract the ZIP before launching the demo
+
 ## 0.2.0 — Standard montage engine
 
 - Replaced the placeholder renderer with an isolated beat-aware Standard engine

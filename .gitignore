@@ -1,0 +1,12 @@
+*.exe
+*.zip
+*.7z
+*.log
+*.tmp
+__pycache__/
+.idea/
+.vscode/
+private/
+source/
+build/
+dist/

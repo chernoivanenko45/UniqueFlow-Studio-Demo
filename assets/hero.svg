@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680" role="img" aria-label="UniqueFlow Studio Demo Edition">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f18"/>
+      <stop offset="0.55" stop-color="#11172a"/>
+      <stop offset="1" stop-color="#17113a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a7dff"/>
+      <stop offset="1" stop-color="#5e4df5"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a2236"/>
+      <stop offset="1" stop-color="#111725"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="680" rx="34" fill="url(#bg)"/>
+  <circle cx="1360" cy="115" r="260" fill="#6d5dfc" opacity=".16" filter="url(#glow)"/>
+  <circle cx="120" cy="650" r="260" fill="#4335c9" opacity=".12" filter="url(#glow)"/>
+
+  <g transform="translate(105 105)">
+    <rect width="62" height="62" rx="17" fill="#151b2a" stroke="#343e58"/>
+    <path d="M14 34 C23 16, 29 51, 38 31 S50 20, 51 30" fill="none" stroke="url(#accent)" stroke-width="7" stroke-linecap="round"/>
+    <text x="88" y="40" fill="#f8f9ff" font-family="Segoe UI,Arial,sans-serif" font-size="33" font-weight="700">UniqueFlow Studio</text>
+    <text x="88" y="67" fill="#8b7fff" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="4">DEMO EDITION</text>
+
+    <text x="0" y="170" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700">Turn raw clips into</text>
+    <text x="0" y="236" fill="url(#accent)" font-family="Segoe UI,Arial,sans-serif" font-size="58" font-weight="700">a finished short edit.</text>
+    <text x="0" y="295" fill="#aab5cc" font-family="Segoe UI,Arial,sans-serif" font-size="24">A limited Windows preview. Local processing. Your own media.</text>
+
+    <g transform="translate(0 345)" font-family="Segoe UI,Arial,sans-serif" font-size="18">
+      <rect width="185" height="50" rx="14" fill="#202840" stroke="#4b426f"/>
+      <text x="24" y="32" fill="#d8d4ff">Up to 3 videos</text>
+      <rect x="200" width="178" height="50" rx="14" fill="#202840" stroke="#4b426f"/>
+      <text x="225" y="32" fill="#d8d4ff">12 sec · 720p</text>
+      <rect x="393" width="208" height="50" rx="14" fill="#202840" stroke="#4b426f"/>
+      <text x="417" y="32" fill="#d8d4ff">Always watermarked</text>
+    </g>
+    <text x="0" y="455" fill="#77859e" font-family="Segoe UI,Arial,sans-serif" font-size="16">Early public preview · v0.1.0 · Windows 10/11 x64</text>
+  </g>
+
+  <g transform="translate(980 105)">
+    <rect width="500" height="465" rx="24" fill="#0d121d" stroke="#3c4560" stroke-width="2"/>
+    <rect x="24" y="24" width="452" height="54" rx="12" fill="#171e31" stroke="#4f4490"/>
+    <circle cx="50" cy="51" r="8" fill="#6d5dfc"/>
+    <rect x="70" y="43" width="150" height="16" rx="8" fill="#e9ecf5" opacity=".86"/>
+    <rect x="24" y="100" width="452" height="184" rx="14" fill="url(#screen)" stroke="#2d3850"/>
+    <rect x="44" y="122" width="245" height="140" rx="9" fill="#0a0e16" stroke="#28334a"/>
+    <path d="M65 234 L118 173 L162 209 L216 147 L270 234 Z" fill="#6d5dfc" opacity=".55"/>
+    <circle cx="109" cy="158" r="18" fill="#9c92ff" opacity=".8"/>
+    <rect x="308" y="122" width="148" height="89" rx="9" fill="#080b11" stroke="#28334a"/>
+    <rect x="319" y="224" width="126" height="8" rx="4" fill="#303a50"/>
+    <circle cx="353" cy="228" r="9" fill="#7161ff"/>
+    <rect x="24" y="306" width="452" height="62" rx="12" fill="#151c2b" stroke="#2c3850"/>
+    <rect x="43" y="326" width="248" height="20" rx="10" fill="#29334a"/>
+    <rect x="310" y="319" width="146" height="36" rx="10" fill="url(#accent)"/>
+    <rect x="24" y="390" width="452" height="50" rx="12" fill="#151c2b" stroke="#2c3850"/>
+    <rect x="43" y="409" width="315" height="11" rx="5" fill="#6d5dfc" opacity=".9"/>
+    <circle cx="447" cy="415" r="8" fill="#35e3a0"/>
+  </g>
+</svg>

@@ -17,12 +17,12 @@
 
 UniqueFlow Studio is a local-first Windows video editing project focused on turning source clips and music into a finished short edit with minimal setup.
 
-This repository contains the **limited public Demo Edition**, created to collect honest early feedback. It is not the full AI product and it intentionally does not contain the proprietary editing engine or source code.
+This repository contains the **limited public Demo Edition**, created to collect honest early feedback. It is not the full AI product and intentionally excludes the production Deep AI backend, premium models and source code.
 
 ## Try it
 
 1. Open [Releases](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest).
-2. Download `UniqueFlowStudio_Demo_0.1.1_Portable.zip`.
+2. Download `UniqueFlowStudio_Demo_0.2.0_Portable.zip`.
 3. Extract the complete archive to a normal folder.
 4. Run `UniqueFlowStudioDemo.exe`.
 5. Add up to three videos, optionally choose a music track, and create a short demo edit.
@@ -32,10 +32,11 @@ This repository contains the **limited public Demo Edition**, created to collect
 ## Demo Edition capabilities
 
 - Up to 3 local source videos
+- Beat-aware Standard montage with motion-based fragment selection
 - Different time ranges selected from every source
-- Optional local music track
+- Optional local music track, with automatic source-audio fallback
 - Automatic vertical or horizontal output
-- Short crossfade transitions
+- Standard-style cuts, reframing, slow motion, reverse and visual accents
 - 720p, 30 FPS H.264 output
 - Up to 12 seconds per result
 - Permanent visible `UniqueFlow Studio — DEMO` watermark
@@ -55,7 +56,7 @@ This repository contains the **limited public Demo Edition**, created to collect
 
 | Module | Public Demo |
 |---|---:|
-| Basic demo montage | Included |
+| Beat-aware Standard montage | Included |
 | Deep AI Director | Not included |
 | Deep video understanding | Not included |
 | Three AI drafts | Not included |
@@ -66,7 +67,7 @@ This repository contains the **limited public Demo Edition**, created to collect
 | Telegram bot and downloader | Not included |
 | Variant export | Not included |
 
-The demo uses a separate simplified renderer. The original production backend, AI models and premium modules are physically absent from the downloadable package.
+The demo uses an isolated Standard engine. The production Deep AI backend, AI models and premium modules are physically absent from the downloadable package.
 
 ## Privacy
 

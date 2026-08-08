@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.2.0 — Standard montage engine
+
+- Replaced the placeholder renderer with an isolated beat-aware Standard engine
+- Added rhythm/bass and motion analysis for fragment selection
+- Added Standard-style cuts, reframing, slow motion, reverse and visual accents
+- Added automatic audio fallback from the first source video
+- Warmed up the media player for faster first playback
+- Kept one continuous timeline and audio stream through full-screen changes
+- Preserved the 3-video, 12-second, 720p and permanent-watermark limits
+
 ## Website launch
 
 - Added a responsive bilingual product website for GitHub Pages.

@@ -117,7 +117,7 @@ h1 em { color: transparent; background: linear-gradient(110deg, #a69cff, #7361ff
 .step h3 { margin: 2px 0 8px; font-size: 18px; }
 .step p { margin: 0; color: var(--muted); line-height: 1.55; font-size: 13px; }
 .screenshot-frame { margin-top: 46px; padding: 11px; overflow: hidden; border: 1px solid #34435f; border-radius: 22px; background: #111827; box-shadow: var(--shadow); }
-.screenshot-frame img { width: 100%; border-radius: 14px; }
+.screenshot-frame img { width: 100%; height: auto; object-fit: contain; border-radius: 14px; }
 
 .comparison-section { background: radial-gradient(circle at 0% 50%, rgba(117,101,255,.09), transparent 32%); }
 .comparison-grid { display: grid; grid-template-columns: .72fr 1.28fr; align-items: center; gap: 80px; }

@@ -1,0 +1,43 @@
+name: Bug report
+description: Tell us what went wrong in the public Demo Edition.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve UniqueFlow Studio. Do not attach private media, tokens or personal data.
+  - type: input
+    id: version
+    attributes:
+      label: Demo version
+      placeholder: 0.1.1
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options: [Windows 11, Windows 10, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened?
+      description: Describe the steps, expected result and actual result.
+      placeholder: "1. I opened…\n2. I selected…\n3. The app…"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Safe error details
+      description: Paste only non-sensitive error text. Remove local usernames, paths and media names.
+      render: shell
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed private media, credentials, tokens and personal information.
+          required: true

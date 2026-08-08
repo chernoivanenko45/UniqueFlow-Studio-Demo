@@ -3,6 +3,11 @@
 </p>
 
 <p align="center">
+  <a href="https://chernoivanenko45.github.io/UniqueFlow-Studio-Demo/ru/"><b>Открыть страницу программы</b></a> ·
+  <a href="https://t.me/zloy_tomych"><b>Telegram @zloy_tomych</b></a>
+</p>
+
+<p align="center">
   <a href="README.md"><b>English version</b></a> ·
   <a href="https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest"><b>Скачать демоверсию</b></a> ·
   <a href="https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/issues"><b>Оставить отзыв</b></a>

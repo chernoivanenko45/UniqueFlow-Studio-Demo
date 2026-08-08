@@ -1,5 +1,13 @@
 # Changelog
 
+## Website launch
+
+- Added a responsive bilingual product website for GitHub Pages.
+- Added separate Russian and English promotional previews.
+- Added a social sharing image and direct Telegram contact.
+- Added structured bug-report and feature-request forms.
+- Kept the downloadable Demo Edition and its private-engine separation unchanged.
+
 ## 0.1.1 — Navigation and localized screenshots
 
 - `Full features` and `About the demo` are now real clickable pages

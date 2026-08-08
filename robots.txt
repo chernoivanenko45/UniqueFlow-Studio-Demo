@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chernoivanenko45.github.io/UniqueFlow-Studio-Demo/sitemap.xml

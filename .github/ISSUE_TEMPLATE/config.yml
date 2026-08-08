@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Telegram contact
+    url: https://t.me/zloy_tomych
+    about: Write directly to the developer in Telegram.
+  - name: Download the latest demo
+    url: https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest
+    about: Use only the official GitHub Release.

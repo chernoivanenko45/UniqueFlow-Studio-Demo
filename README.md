@@ -3,6 +3,11 @@
 </p>
 
 <p align="center">
+  <a href="https://chernoivanenko45.github.io/UniqueFlow-Studio-Demo/"><b>Open product website</b></a> ·
+  <a href="https://t.me/zloy_tomych"><b>Telegram @zloy_tomych</b></a>
+</p>
+
+<p align="center">
   <a href="README_RU.md"><b>Русская версия</b></a> ·
   <a href="https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest"><b>Download latest demo</b></a> ·
   <a href="https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/issues"><b>Share feedback</b></a>
@@ -84,6 +89,8 @@ If the idea is interesting to you:
 - download and try the demo;
 - open an [issue](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/issues) with honest feedback;
 - tell us which full-version feature you would want most.
+
+You can also contact the developer directly on [Telegram @zloy_tomych](https://t.me/zloy_tomych).
 
 ## Responsible use
 

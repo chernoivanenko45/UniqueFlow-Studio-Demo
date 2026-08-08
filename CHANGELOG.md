@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 — Navigation and localized screenshots
+
+- `Full features` and `About the demo` are now real clickable pages
+- Exclusive active state for all three sidebar sections
+- Separate Russian and English screenshots in the matching README
+- Added transparent Demo/Full comparison and direct feedback links
+
 ## 0.1.0 — Public Preview
 
 - First downloadable Windows Demo Edition

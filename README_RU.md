@@ -17,7 +17,7 @@ UniqueFlow Studio — локальный Windows-редактор, которы�
 ## Как попробовать
 
 1. Откройте раздел [Releases](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest).
-2. Скачайте `UniqueFlowStudio_Demo_0.1.0_Portable.zip`.
+2. Скачайте `UniqueFlowStudio_Demo_0.1.1_Portable.zip`.
 3. Полностью распакуйте архив в обычную папку.
 4. Запустите `UniqueFlowStudioDemo.exe`.
 5. Добавьте до трёх видео, при желании выберите музыку и создайте короткий демо-монтаж.
@@ -40,7 +40,11 @@ UniqueFlow Studio — локальный Windows-редактор, которы�
 
 ## Интерфейс
 
-![Интерфейс UniqueFlow Studio Demo](assets/demo-ui.png)
+![Страница демо-монтажа UniqueFlow Studio на русском](assets/demo-ui-ru.png)
+
+### Сравнение с полной версией
+
+![Страница возможностей Full Edition на русском](assets/demo-features-ru.png)
 
 ## Чего в демоверсии нет
 

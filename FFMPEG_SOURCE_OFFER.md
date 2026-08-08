@@ -1,6 +1,6 @@
 # FFmpeg build and source information
 
-UniqueFlow Studio Demo 0.1.0 bundles the following unmodified upstream build:
+UniqueFlow Studio Demo 0.1.1 bundles the following unmodified upstream build:
 
 - Archive: `ffmpeg-N-125990-g5c395992f9-win64-lgpl-shared.zip`
 - Archive SHA-256: `F7B3B99CB0D4CC77BAF13FF6C451CE564C904686EEC228B7812A0AAFF501C14D`

@@ -17,7 +17,7 @@ This repository contains the **limited public Demo Edition**, created to collect
 ## Try it
 
 1. Open [Releases](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest).
-2. Download `UniqueFlowStudio_Demo_0.1.0_Portable.zip`.
+2. Download `UniqueFlowStudio_Demo_0.1.1_Portable.zip`.
 3. Extract the complete archive to a normal folder.
 4. Run `UniqueFlowStudioDemo.exe`.
 5. Add up to three videos, optionally choose a music track, and create a short demo edit.
@@ -38,9 +38,13 @@ This repository contains the **limited public Demo Edition**, created to collect
 - Russian and English interface
 - Fully local processing with no telemetry
 
-## Screenshot
+## Interface
 
-![UniqueFlow Studio Demo interface](assets/demo-ui.png)
+![UniqueFlow Studio Demo montage page in English](assets/demo-ui-en.png)
+
+### Full edition comparison
+
+![UniqueFlow Studio Demo Full features page in English](assets/demo-features-en.png)
 
 ## What is intentionally not included
 

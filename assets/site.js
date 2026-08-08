@@ -1,4 +1,6 @@
 (() => {
+  document.documentElement.classList.add('motion-ready');
+
   const header = document.querySelector('[data-header]');
   const updateHeader = () => header?.classList.toggle('scrolled', window.scrollY > 16);
   updateHeader();

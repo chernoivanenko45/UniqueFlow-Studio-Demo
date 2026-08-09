@@ -1,21 +1,23 @@
 # Privacy
 
-UniqueFlow Studio Demo Edition is designed as a local desktop application.
+UniqueFlow Studio Full Beta is designed as a local desktop application.
 
 ## What the application processes
 
 - Video files selected by the user
 - An optional audio track selected by the user
-- The resulting local MP4 file
+- Generated local video and photo results
 
 ## What the application sends
 
-The Demo Edition does not upload selected media or generated results. It contains no account system, advertising SDK, analytics SDK or telemetry endpoint.
+The Full Beta does not upload selected media or generated results. It contains no account system, advertising SDK, analytics SDK or telemetry endpoint.
 
-GitHub may process ordinary website and download information when you visit this repository or download a Release. That activity is governed by GitHub's own privacy terms and is separate from the desktop application.
+Network access occurs only when the user requests a network function, such as downloading permitted media, checking a bundled tool for updates or connecting the user's own Telegram bot token.
+
+GitHub and the beta download host may process ordinary website and download request information. That activity is governed by the relevant host's privacy terms and is separate from the desktop application's local media processing.
 
 ## Local data
 
-Small interface preferences are stored under the current Windows user profile. Generated videos are saved under `Videos/UniqueFlow Demo` unless Windows redirects that standard folder.
+Interface preferences, history and an optional DPAPI-protected Telegram token are stored under the current Windows user profile. Results are saved to the output folder selected by the user.
 
-Uninstalling or deleting the portable demo does not automatically delete videos you created.
+Uninstalling the Full Beta does not automatically delete exported media.

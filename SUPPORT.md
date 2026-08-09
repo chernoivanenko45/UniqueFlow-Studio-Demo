@@ -1,6 +1,6 @@
 # Support and feedback
 
-The public Demo Edition exists to collect practical early feedback.
+The temporary Full Beta exists to collect practical early feedback before the commercial release.
 
 - Questions and direct feedback: [Telegram @zloy_tomych](https://t.me/zloy_tomych)
 - Bugs: [open a bug report](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/issues/new?template=bug_report.yml)

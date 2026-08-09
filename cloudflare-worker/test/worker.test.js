@@ -2,10 +2,12 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import worker from "../src/index.js";
 
-function createEnv({ open = true, objectAvailable = true } = {}) {
-  const values = new Map();
+function createEnv({ open = true, objectAvailable = true, initialValues = {} } = {}) {
+  const values = new Map(Object.entries(initialValues));
   return {
+    __values: values,
     BETA_OPEN: String(open),
+    BETA_MAX_DOWNLOADS: "25",
     BETA_OBJECT_KEY: "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe",
     BETA_FILENAME: "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe",
     BETA_LINKS: {
@@ -18,6 +20,7 @@ function createEnv({ open = true, objectAvailable = true } = {}) {
         return {
           body: new Uint8Array([1, 2, 3]),
           size: 3,
+          range: { offset: 0, length: 3 },
           httpEtag: "test-etag",
           writeHttpMetadata(headers) { headers.set("content-type", "application/octet-stream"); }
         };
@@ -34,6 +37,14 @@ test("status exposes beta state", async () => {
 
 test("closed beta refuses a download token", async () => {
   const response = await worker.fetch(new Request("https://download.example/download"), createEnv({ open: false }));
+  assert.equal(response.status, 403);
+});
+
+test("full beta refuses new download tokens", async () => {
+  const response = await worker.fetch(
+    new Request("https://download.example/download"),
+    createEnv({ initialValues: { "downloads:total": "25" } })
+  );
   assert.equal(response.status, 403);
 });
 
@@ -57,4 +68,23 @@ test("unknown or expired tokens are rejected", async () => {
     createEnv()
   );
   assert.equal(response.status, 410);
+});
+
+test("HEAD checks do not consume a download", async () => {
+  const env = createEnv();
+  const issued = await worker.fetch(new Request("https://download.example/download"), env);
+  const response = await worker.fetch(new Request(issued.headers.get("location"), { method: "HEAD" }), env);
+  assert.equal(response.status, 200);
+  assert.equal(env.__values.get("downloads:total"), undefined);
+});
+
+test("range requests return partial-content headers", async () => {
+  const env = createEnv();
+  const issued = await worker.fetch(new Request("https://download.example/download"), env);
+  const response = await worker.fetch(
+    new Request(issued.headers.get("location"), { headers: { range: "bytes=0-2" } }),
+    env
+  );
+  assert.equal(response.status, 206);
+  assert.equal(response.headers.get("content-range"), "bytes 0-2/3");
 });

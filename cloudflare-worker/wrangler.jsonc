@@ -1,23 +1,29 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "uniqueflow-full-beta-download",
-  "main": "src/index.js",
-  "compatibility_date": "2026-08-09",
-  "vars": {
-    "BETA_OPEN": "true",
-    "BETA_OBJECT_KEY": "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe",
-    "BETA_FILENAME": "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe"
-  },
-  "r2_buckets": [
-    {
-      "binding": "BETA_FILES",
-      "bucket_name": "uniqueflow-full-beta"
-    }
-  ],
-  "kv_namespaces": [
-    {
-      "binding": "BETA_LINKS",
-      "id": "REPLACE_AFTER_KV_CREATE"
-    }
-  ]
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "uniqueflow-full-beta-download",
+	"main": "src/index.js",
+	"compatibility_date": "2026-08-09",
+	"compatibility_flags": ["nodejs_compat"],
+	"vars": {
+		"BETA_OPEN": "true",
+		"BETA_MAX_DOWNLOADS": "25",
+		"BETA_OBJECT_KEY": "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe",
+		"BETA_FILENAME": "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe"
+	},
+	"observability": {
+		"enabled": true,
+		"head_sampling_rate": 1
+	},
+	"r2_buckets": [
+		{
+			"binding": "BETA_FILES",
+			"bucket_name": "uniqueflow-full-beta"
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "BETA_LINKS",
+			"id": "066c2d742d9c4f1b8c96e41c601e8f71"
+		}
+	]
 }

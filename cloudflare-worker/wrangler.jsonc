@@ -6,7 +6,7 @@
 	"compatibility_flags": ["nodejs_compat"],
 	"vars": {
 		"BETA_OPEN": "true",
-		"BETA_MAX_DOWNLOADS": "25",
+		"BETA_MAX_DOWNLOADS": "35",
 		"BETA_OBJECT_KEY": "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe",
 		"BETA_FILENAME": "UniqueFlowStudio_Full_Beta_0.9.0-rc1.exe"
 	},

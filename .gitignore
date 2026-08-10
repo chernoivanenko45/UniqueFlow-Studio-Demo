@@ -10,6 +10,3 @@ private/
 source/
 build/
 dist/
-node_modules/
-.wrangler/
-worker-configuration.d.ts

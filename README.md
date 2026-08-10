@@ -1,50 +1,106 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="UniqueFlow Studio Full Beta" width="100%">
+  <img src="assets/hero.svg" alt="UniqueFlow Studio Demo Edition" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://chernoivanenko45.github.io/UniqueFlow-Studio-Demo/"><b>Open the Full Beta page</b></a> ·
-  <a href="README_RU.md"><b>Русская версия</b></a> ·
+  <a href="https://chernoivanenko45.github.io/UniqueFlow-Studio-Demo/"><b>Open product website</b></a> ·
   <a href="https://t.me/zloy_tomych"><b>Telegram @zloy_tomych</b></a>
 </p>
 
-# UniqueFlow Studio — Full Beta
+<p align="center">
+  <a href="README_RU.md"><b>Русская версия</b></a> ·
+  <a href="https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest"><b>Download latest demo</b></a> ·
+  <a href="https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/issues"><b>Share feedback</b></a>
+</p>
 
-UniqueFlow Studio is a local-first Windows editor that turns source clips and music into a finished short edit. The temporary **Full Beta 0.9.0-rc1** provides the actual Standard and Deep AI workflows for evaluation; it is not an open-source release.
+# UniqueFlow Studio — Public Demo
 
-## Included in the beta
+UniqueFlow Studio is a local-first Windows video editing project focused on turning source clips and music into a finished short edit with minimal setup.
 
-- Beat-aware Standard montage
-- Deep AI Director with scene and music analysis
-- AI tracking and automatic reframing
-- Video enhancement and Photo AI
-- Variant export and local result history
-- Optional downloader and Telegram integration with the user's own bot token
+This repository contains the **limited public Demo Edition**, created to collect honest early feedback. It is not the full AI product and intentionally excludes the production Deep AI backend, premium models and source code.
+
+## Try it
+
+1. Open [Releases](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/releases/latest).
+2. Download `UniqueFlowStudio_Demo_0.2.1_Portable.zip`.
+3. Extract the complete archive to a normal folder.
+4. Run `UniqueFlowStudioDemo.exe`.
+5. Add up to three videos, optionally choose a music track, and create a short demo edit.
+
+> Do not run the EXE directly inside WinRAR, 7-Zip or another archive viewer. Extract the complete folder first; the player and bundled multimedia libraries must remain together.
+
+> This early preview is unsigned. Windows SmartScreen may display an “Unknown publisher” warning. Verify the SHA-256 value shown in the Release before running it.
+
+## Demo Edition capabilities
+
+- Up to 3 local source videos
+- Beat-aware Standard montage with motion-based fragment selection
+- Different time ranges selected from every source
+- Optional local music track, with automatic source-audio fallback
+- Automatic vertical or horizontal output
+- Standard-style cuts, reframing, slow motion, reverse and visual accents
+- 720p, 30 FPS H.264 output
+- Up to 12 seconds per result
+- Permanent visible `UniqueFlow Studio — DEMO` watermark
+- Built-in source and result preview
 - Russian and English interface
-- Local media processing with no telemetry
+- Fully local processing with no telemetry
 
-Face Swap is disabled while redistribution rights for its model stack are reviewed.
+## Interface
 
-## Download and installation
+![UniqueFlow Studio Demo montage page in English](assets/demo-ui-en.png)
 
-1. Open the [official beta page](https://chernoivanenko45.github.io/UniqueFlow-Studio-Demo/).
-2. Use **Download Full Beta** while the testing group is open.
-3. Verify the installer SHA-256 shown on the page.
-4. Run the installer and follow the setup wizard.
+### Full edition comparison
 
-The package is about 902 MiB and includes the required runtime components. The current build is unsigned, so Windows SmartScreen may show an “Unknown publisher” warning.
+![UniqueFlow Studio Demo Full features page in English](assets/demo-features-en.png)
 
-## Privacy and responsible use
+## What is intentionally not included
 
-Selected media and generated results stay on the user's computer. Network access occurs only for explicitly requested functions such as permitted downloads, tool updates or the user's Telegram bot. See [PRIVACY.md](PRIVACY.md) and [RESPONSIBLE_USE.md](RESPONSIBLE_USE.md).
+| Module | Public Demo |
+|---|---:|
+| Beat-aware Standard montage | Included |
+| Deep AI Director | Not included |
+| Deep video understanding | Not included |
+| Three AI drafts | Not included |
+| AI tracking | Not included |
+| Video enhancement / 2K AI x2 | Not included |
+| Photo AI | Not included |
+| Face Swap | Not included |
+| Telegram bot and downloader | Not included |
+| Variant export | Not included |
 
-Use only media you own or are allowed to process. Review every result before publishing it.
+The demo uses an isolated Standard engine. The production Deep AI backend, AI models and premium modules are physically absent from the downloadable package.
 
-## License and feedback
+## Privacy
 
-UniqueFlow Studio is proprietary software. The beta is available for personal, non-commercial evaluation under [LICENSE.md](LICENSE.md). This repository is a product page and contains no production source code or private AI models.
+Selected media is processed on your computer. The Demo Edition does not upload source videos, audio or results and does not contain analytics or telemetry. See [PRIVACY.md](PRIVACY.md).
 
-- Bugs and ideas: [GitHub Issues](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/issues)
-- Direct contact: [Telegram @zloy_tomych](https://t.me/zloy_tomych)
-- Third-party notices: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
-- FFmpeg source information: [FFMPEG_SOURCE_OFFER.md](FFMPEG_SOURCE_OFFER.md)
+## System requirements
+
+- Windows 10 or Windows 11, 64-bit
+- 4 GB RAM minimum
+- Approximately 1 GB of free disk space plus space for results
+- A standard modern CPU; a dedicated GPU is not required for the demo renderer
+
+## Help shape the product
+
+This preview exists to answer one question: **is UniqueFlow useful enough to keep developing?**
+
+If the idea is interesting to you:
+
+- star the repository;
+- download and try the demo;
+- open an [issue](https://github.com/chernoivanenko45/UniqueFlow-Studio-Demo/issues) with honest feedback;
+- tell us which full-version feature you would want most.
+
+You can also contact the developer directly on [Telegram @zloy_tomych](https://t.me/zloy_tomych).
+
+## Responsible use
+
+Use only media you own or are allowed to process. Do not use the application to impersonate people, violate privacy, evade platform rules or republish content without permission. See [RESPONSIBLE_USE.md](RESPONSIBLE_USE.md).
+
+## License
+
+UniqueFlow Studio is proprietary software. The public demo may be downloaded and evaluated under the terms in [LICENSE.md](LICENSE.md). This repository is a product showcase and is **not an open-source release**.
+
+Third-party runtime notices and exact FFmpeg build/source information are available in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [FFMPEG_SOURCE_OFFER.md](FFMPEG_SOURCE_OFFER.md).

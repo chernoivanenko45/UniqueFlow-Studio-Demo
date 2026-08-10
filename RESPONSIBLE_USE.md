@@ -12,4 +12,4 @@ Please:
 
 Do not use UniqueFlow Studio to impersonate people, deceive viewers, harass others, evade platform enforcement or republish content without the necessary rights.
 
-The Full Beta does not include Face Swap or identity-generation features.
+The public Demo Edition does not include Face Swap or identity-generation features.

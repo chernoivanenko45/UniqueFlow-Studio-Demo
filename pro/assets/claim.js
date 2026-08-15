@@ -48,6 +48,8 @@
       keyNode.textContent = data.license_key;
       downloadNode.href = data.download_url;
       resultNode.hidden = false;
+      localStorage.removeItem("uf_order_claim_token");
+      localStorage.removeItem("uf_order_claim_hash");
       setStatus(isRu ? "Готово — ключ и установщик доступны ниже." : "Done — your key and installer are ready below.", "ready");
     } catch (error) {
       console.error("Order claim failed", error);

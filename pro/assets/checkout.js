@@ -54,8 +54,6 @@
       const claimToken = base64Url(crypto.getRandomValues(new Uint8Array(32)));
       const claimHash = await sha256Hex(claimToken);
       sessionStorage.setItem("uf_order_claim_token", claimToken);
-      localStorage.setItem("uf_order_claim_token", claimToken);
-      localStorage.setItem("uf_order_claim_hash", claimHash);
 
       window.Paddle.Checkout.open({
         items: [{ priceId, quantity: 1 }],
@@ -78,6 +76,10 @@
   }
 
   function initializeCheckout() {
+    // Claim secrets only need to survive the same-tab Paddle redirect. Remove
+    // values left by older builds so they do not persist in the browser.
+    localStorage.removeItem("uf_order_claim_token");
+    localStorage.removeItem("uf_order_claim_hash");
     const buttons = document.querySelectorAll("[data-buy-button]");
     if (!paddleConfigured()) {
       buttons.forEach((button) => {
